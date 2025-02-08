@@ -86,13 +86,15 @@ body {
 
 .insta-text {
     width: 50%; /* Vous pouvez ajuster la largeur du texte ici */
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     margin-right: 20px;
     text-align: center;
     font-family: "Fira Sans", serif;
     font-weight: 200;
     font-style: normal;
+    margin-top: 200px;
+    
 }
 
 .insta-post {
