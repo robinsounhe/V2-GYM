@@ -75,3 +75,23 @@ body {
     font-style: normal;
 }
 
+
+
+.insta-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.insta-text {
+    width: 40%; /* Vous pouvez ajuster la largeur du texte ici */
+    font-size: 16px;
+    line-height: 1.5;
+    margin-right: 20px;
+}
+
+.insta-post {
+    width: 55%; /* Vous pouvez ajuster la largeur du post Instagram ici */
+}
+
