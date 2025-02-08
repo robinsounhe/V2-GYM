@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit&display=swap');
 
 body {
     font-family: Arial, sans-serif;
@@ -54,6 +55,18 @@ body {
     align-items: center; 
 }
 
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+  
+  input,
+  label {
+    margin: 0.4rem 0;
+  }
+  
 
 #map {
     opacity: 1;
@@ -91,14 +104,49 @@ body {
     margin-right: 20px;
     text-align: center;
     font-family: "Fira Sans", serif;
-    font-weight: 200;
-    font-style: normal;
+    font-weight: 700;
+    font-style: italic;
     margin-top: 200px;
-    
 }
 
 .insta-post {
     width: 55%;
     margin-left: 100px; 
+}
+
+.formules-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; /* Augmente l'espace entre les formules */
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.formule {
+    border: 1px solid #fecf03;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.formule img {
+    width: 100%;
+    border-bottom: 1px solid #fecf03;
+    margin-bottom: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.formule h2 {
+    margin-top: 0;
+    color: #fecf03;
+}
+
+.formule p {
+    margin-bottom: 0;
+    color: #ffffff;
 }
 
