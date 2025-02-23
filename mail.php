@@ -14,6 +14,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo 'Votre message a bien été envoyé';
     } else {
         echo "Votre message n'a pas pu être envoyé";
+        error_log("Mail failed to send to $to with subject $subject");
     }
+} else {
+    echo "Invalid request method.";
+    error_log("Invalid request method: " . $_SERVER["REQUEST_METHOD"]);
 }
 ?>
