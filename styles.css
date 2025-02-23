@@ -414,3 +414,8 @@ textarea:focus {
   font-size: 14px;
   font-family: inherit;
 }
+
+#message::placeholder {
+  color: #ce9797;
+  font-size: 12px;
+}
