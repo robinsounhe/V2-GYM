@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-color: #ffffff;
+}
+
+.index_page {
+    background-color: #000000;
+}
+
+.text {
+    color: #ffffff;
+    width: 65%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center; /* Centre les éléments verticalement */
+    background-color: #000000;
+    padding: 10px;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 5px solid #fecf03;
+}
+
+#logo {
+    max-width: 75%;
+    height: 75px;
+    opacity: 1;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#navbar_texte:hover {
+    color: #fecf03;
+}
+
+#navbar_texte {
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-flex;
+}
+
+.photo_accueil {
+  width: 30%;
+  height: auto;
+  opacity: 1;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container_1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.photo_presentation {
+  width: 40%;
+  height: auto;
+  opacity: 1;
+  margin: 0;
+}
+
+.navbar .left-side {
+    display: flex;
+    align-items: center; 
+}
+
+.navbar .right-side {
+    display: flex;
+    align-items: center; 
+}
+
+label {
+    display: block;
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+  }
+  
+  input,
+  label {
+    margin: 0.4rem 0;
+  }
+  
+
+#map {
+    opacity: 1;
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+#titre_contact {
+  background-color: #000000;
+  color: #fecf03;
+  padding: 20px;
+  border-bottom: solid 5px #fecf03;
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 40px;
+  text-align: center;
+}
+
+#adress {
+    text-align: center;
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+
+.insta-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.insta-text {
+    width: 50%; /* Vous pouvez ajuster la largeur du texte ici */
+    font-size: 20px;
+    line-height: 1.5;
+    margin-right: 20px;
+    text-align: center;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 200px;
+}
+
+.insta-post {
+    width: 55%;
+    margin-left: 100px; 
+}
+
+.formules-container {
+    display: flex;
+    justify-content: center; /* Center the items */
+    gap: 20px; /* Add space between items */
+    margin-top: 20px;
+}
+
+.formule {
+    border: 1px solid #fecf03;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #000000;
+    color: #ffffff;
+    position: relative; /* Add this line */
+    padding-bottom: 60px; /* Add space for the button */
+}
+
+.formule:first-child {
+    padding-bottom: 100px; /* Add more space for the first formula */
+}
+
+
+.formule img {
+    width: 100%;
+    border-bottom: 1px solid #fecf03;
+    margin-bottom: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.formule h2 {
+    margin-top: 0;
+    color: #fecf03;
+}
+
+.formule p {
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.formule button {
+    position: absolute; /* Add this line */
+    bottom: 20px; /* Adjust the distance from the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+}
+
+.titre_formule {
+    text-align: center;
+    color: #fecf03;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+button {
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.2s;
+    padding: 10px 20px;
+    border-radius: 100px;
+    background: #fecf03;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  button:hover {
+    background: #fecf03;
+  }
+  
+  button > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  button:hover svg {
+    transform: translateX(5px);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+
+ .card {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+    border-radius: 10px;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+ 
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+#mail {
+  background-color: #000000;
+  color: #fecf03;
+  padding: 20px;
+  border-bottom: solid 5px #fecf03;
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.input-container {
+  position: relative;
+  margin: 50px auto;
+  width: 200px;
+}
+
+.input-container input[type="text"] {
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  padding: 5px 0;
+  background-color: transparent;
+  outline: none;
+}
+
+.input-container .label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ccc;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.input-container input[type="text"]:focus ~ .label,
+.input-container input[type="text"]:valid ~ .label {
+  top: -20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.input-container .underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #333;
+  transform: scaleX(0);
+  transition: all 0.3s ease;
+}
+
+.input-container input[type="text"]:focus ~ .underline,
+.input-container input[type="text"]:valid ~ .underline {
+  transform: scaleX(1);
+}
+
+.input__email,
+textarea {
+  width: 100%;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-family: inherit;
+  box-shadow: 0 0 0 1px #ffe3e3;
+  border: none;
+  border-radius: 20px;
+  background-color: #fff5f5;
+}
+
+.input__email::placeholder,
+textarea::placeholder {
+  color: #ce9797;
+  font-size: 12px;
+}
+
+.input__email:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #ffe3e3;
+  border: none;
+}
+
+#message {
+  width: 100%;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-family: inherit;
+}
