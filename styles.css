@@ -53,6 +53,11 @@ body {
     border-bottom: 5px solid #fecf03;
 }
 
+footer.navbar {
+    border-top: 5px solid #fecf03;
+    border-bottom: none;
+}
+
 #logo {
     max-width: 75%;
     height: 75px;
@@ -186,9 +191,10 @@ label {
 
 .formules-container {
     display: flex;
-    justify-content: center; /* Center the items */
-    gap: 20px; /* Add space between items */
+    justify-content: space-evenly; /* Distribute space between items */
+   /* Reduce space between items */
     margin-top: 20px;
+    flex-wrap: nowrap; /* Prevent items from wrapping */
 }
 
 .formule {
@@ -254,6 +260,7 @@ button {
     display: flex;
     align-items: center;
     font-size: 15px;
+    margin-top: 10px;
   }
   
   button:hover {
@@ -354,13 +361,13 @@ button {
 }
 
 section {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: center; */
     margin: 20px auto;
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .input-container {
@@ -452,4 +459,13 @@ textarea:focus {
     display: flex;
     gap: 10px; /* Add space between buttons */
     margin-top: 20px;
+}
+
+
+
+hr {
+    border: 0;
+    height: 5px;
+    background: #fecf03;
+    margin: 20px 0;
 }
